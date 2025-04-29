@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (response.ok) {
         sessionStorage.setItem('token', data.access_token);
+        alert('Registration successful! Please check your email and verify your account.');
         window.location.href = 'home.html';
       } else {
         alert('Registration failed');
@@ -88,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       if (response.ok) {
-        alert('Profile updated!');
+        alert('Profile updated! If you changed email, please verify again');
       } else {
         alert('Failed to update.');
       }
