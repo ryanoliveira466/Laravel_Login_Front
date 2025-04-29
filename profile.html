@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+</head>
+
+<body>
+
+  <h1>Profile Page</h1>
+
+  <form id="profileForm">
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <button type="submit">Update Profile</button>
+  </form>
+
+  <h3>Change Password</h3>
+  <form id="changePasswordForm">
+    <input type="password" id="current_password" placeholder="Current Password" required><br>
+    <input type="password" id="new_password" placeholder="New Password" required><br>
+    <input type="password" id="new_password_confirmation" placeholder="Confirm New Password" required><br>
+    <button type="submit">Change Password</button>
+  </form>
+
+  <br>
+  <a href="home.html">🏠 Back to Home</a> |
+  <button id="logoutButton">Logout</button>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
