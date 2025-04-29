@@ -9,3 +9,7 @@
 
 * Little issue with API routes where /user and /user/my were conflicting because Laravel was understanding ---my--- as an ID but it is actually other function.
   Reorganized the APIS putting user/my after user/ and worked.
+
+29/04/2025
+
+* Email verification using Mailtrap, using Laravel built-in email sender, created routes[https://github.com/ryanoliveira466/Laravel_Login_Front_Git/blob/main/Notes_Att/29-04-2025-emailVer-changePas.txt]
