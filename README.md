@@ -14,6 +14,6 @@
 
 * Email verification using Mailtrap, using Laravel built-in email sender, created routes[https://github.com/ryanoliveira466/Laravel_Login_Front_Git/blob/main/Notes_Att/29-04-2025-emailVer-changePas.txt]
 
-  30/04/2025
+30/04/2025
 
 * Email for 'Forgot Password' using Laravel built-in Password changer [https://github.com/ryanoliveira466/Laravel_Login_Front_Git/blob/main/Notes_Att/30-04-2025-forgotPassword.txt]  
