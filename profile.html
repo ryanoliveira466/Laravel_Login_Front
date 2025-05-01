@@ -11,8 +11,8 @@
   <h1>Profile Page</h1>
 
   <form id="profileForm">
-    <input type="text" id="name" placeholder="Name">
-    <input type="email" id="email" placeholder="Email">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
     <button type="submit">Update Profile</button>
   </form>
 
@@ -26,7 +26,8 @@
 
   <br>
   <a href="home.html">🏠 Back to Home</a> |
-  <button id="logoutButton">Logout</button>
+  <button id="logoutButton">Logout</button> |
+  <p id="message"></p>
 
   <script src="app.js"></script>
 </body>
